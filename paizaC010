@@ -1,0 +1,11 @@
+# https://paiza.jp/challenges/37/page/problem
+
+prace_point = list(map(int, input().split()))
+tree_num = int(input())
+
+for i in range(tree_num) :
+    tree_prace = list(map(int,input().split()))
+    if (tree_prace[0]-prace_point[0])**2 + (tree_prace[1]-prace_point[1])**2 >= prace_point[2]**2 :
+        print("silent")
+    else :
+        print("noisy")
