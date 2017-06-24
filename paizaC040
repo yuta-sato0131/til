@@ -1,0 +1,13 @@
+#C040:【ロジサマコラボ問題】背比べ
+
+human_num = input()
+ge_list = []
+le_list = []
+for i in range(int(human_num)) :
+    human_list = list(map(str, input().split()))
+    if human_list[0] == "ge" :
+        ge_list.append(human_list[1])
+    elif human_list[0] == "le" :
+        le_list.append(human_list[1])
+    
+print(max(ge_list), min(le_list))
