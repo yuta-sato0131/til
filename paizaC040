@@ -1,4 +1,4 @@
-#C040:【ロジサマコラボ問題】背比べ
+# https://paiza.jp/challenges/181/page/result
 
 human_num = input()
 ge_list = []
